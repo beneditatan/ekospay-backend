@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "mvn -B verify",
+    "start": "neon-env run -- mvn spring-boot:run"
+  },
+  "dependencies": {
+    "@neon/config": "^1.14.2",
+    "@neon/env": "^2.1.4"
+  }
+}
